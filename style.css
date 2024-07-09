@@ -1,0 +1,207 @@
+.sect {
+    margin: 10%;
+}
+header {
+    background-image: url(Images/4fc6b006f50543da9e6d39d3763d635d.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    padding-top: 20px;
+}
+
+.navlist .intro {
+    position: relative;
+    z-index: 10;
+}
+
+.intro {
+    padding-top: 20%;
+    padding-left: 5%;
+    color: white;
+}
+
+.icon {
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+.nobullets {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 30px;
+    gap: 20px;
+    color: white;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.logolist {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 , h3 {
+    color: whitesmoke;
+}
+
+.AboutMe {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin: 40px;
+    gap: 40px;
+}
+
+#file {
+    width: 400px;
+}
+
+.Expertise {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-bottom: 10%;
+    gap: 70px;
+}
+
+#expert {
+    margin: 30px;
+}
+
+img {
+    padding-bottom: 50px;
+}
+
+.footer {
+    background-color: white;
+}
+
+.nobullets {
+    display: flex;
+    list-style-type: none;
+    padding-right: 30px;
+    gap: none;
+    color: white;
+}
+
+.hireme {
+    border-style: hidden;
+    background-color: antiquewhite;
+    margin: 50px;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+button {
+    color: whitesmoke;
+    background-color: black;
+    margin-left: 80%;
+}
+
+.bposts {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 20px;
+    gap: 60px
+}
+
+.bposts1 {
+    border: 1pt;
+    border-color: rgb(233, 230, 230);
+    border-style: groove;
+    text-align: center ;
+    padding-top: 30px;
+}
+
+#bbutton {
+    color: rgb(118, 27, 214);
+    background-color: white;
+    margin-inline-start: -50%;
+    border:none;
+}
+
+#quote {
+    text-align: center;
+    font-size: 150%;
+    padding: 5%
+}
+
+.bot {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+input {
+    margin:5px;
+    padding:5px;
+}
+
+textarea {
+    margin-top: 20px;
+    padding-top:20px;
+    padding-bottom: 50px ;
+    margin-bottom:30px ;
+}
+
+#fbtn {
+    width:30%;
+    height:30px ;
+    margin-inline-start: -30%;
+}
+
+#bt {
+    margin-left: 50px ;
+}
+
+.form{
+    margin-left: 50px;
+}
+
+.fimage {
+    margin-right: 40px;
+}
+
+textarea, input {
+    background-color: rgb(235, 245, 248);
+    border-style: hidden;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 40%;
+    background-color: whitesmoke;
+}
+
+.nobullets2{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 120px;
+    gap: 20px;
+    z-index: 10;
+}
+
+.ffooter {
+    padding-left: 50px;
+}
+
+.bposts2 {
+    border: 1pt;
+    border-color: rgb(233, 230, 230);
+    border-style: groove;
+    text-align: center ;
+    padding-top: 30px;
+}
+
+.bposts3 {
+    border: 1pt;
+    border-color: rgb(233, 230, 230);
+    border-style: groove;
+    text-align: center ;
+    padding-top: 30px;
+}
