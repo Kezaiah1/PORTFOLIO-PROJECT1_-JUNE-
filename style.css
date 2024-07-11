@@ -2,7 +2,7 @@
     margin: 10%;
 }
 header {
-    background-image: url(Images/4fc6b006f50543da9e6d39d3763d635d.jpg);
+    background-image: url(Images/b8c5312e485d5564f69fb3e265cc25a4.jpg);
     background-repeat: no-repeat;
     background-size: 100% 150%;
     padding-top: 20px;
@@ -49,7 +49,8 @@ h1 , h3 {
 .AboutMe {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
     margin: 40px;
     gap: 40px;
 }
@@ -75,7 +76,10 @@ img {
 }
 
 .footer {
-    background-color: white;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    gap: 40%;
 }
 
 .nobullets {
@@ -109,6 +113,22 @@ button {
 }
 
 .bposts1 {
+    border: 1pt;
+    border-color: rgb(233, 230, 230);
+    border-style: groove;
+    text-align: center ;
+    padding-top: 30px;
+}
+
+.bposts2 {
+    border: 1pt;
+    border-color: rgb(233, 230, 230);
+    border-style: groove;
+    text-align: center ;
+    padding-top: 30px;
+}
+
+.bposts3 {
     border: 1pt;
     border-color: rgb(233, 230, 230);
     border-style: groove;
@@ -168,13 +188,7 @@ textarea {
 textarea, input {
     background-color: rgb(235, 245, 248);
     border-style: hidden;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    gap: 40%;
-    background-color: whitesmoke;
+    margin-bottom: 30px;
 }
 
 .nobullets2{
@@ -188,20 +202,22 @@ textarea, input {
 
 .ffooter {
     padding-left: 50px;
+    color: black;
 }
 
-.bposts2 {
-    border: 1pt;
-    border-color: rgb(233, 230, 230);
-    border-style: groove;
-    text-align: center ;
-    padding-top: 30px;
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 180px;
+    text-align: left;
+    flex-direction: row;
 }
 
-.bposts3 {
-    border: 1pt;
-    border-color: rgb(233, 230, 230);
-    border-style: groove;
-    text-align: center ;
-    padding-top: 30px;
+.list2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin: 40px;
+    gap: 250px;
 }
