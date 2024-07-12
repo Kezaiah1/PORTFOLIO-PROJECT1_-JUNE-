@@ -2,7 +2,7 @@
     margin: 10%;
 }
 header {
-    background-image: url(Images/b8c5312e485d5564f69fb3e265cc25a4.jpg);
+    background-image: linear-gradient(rgba(4, 20, 30, 0.6),rgba(4, 20, 30, 0.6)), url(images/b8c5312e485d5564f69fb3e265cc25a4.jpg);
     background-repeat: no-repeat;
     background-size: 100% 150%;
     padding-top: 20px;
@@ -33,8 +33,13 @@ header {
     color: white;
 }
 
+li {
+    color: rgb(235, 173, 92);
+    list-style-type: none;
+}
+
 .logo {
-    padding: 20px;
+    padding: 30px;
 }
 
 .logolist {
@@ -43,7 +48,7 @@ header {
 }
 
 h1 , h3 {
-    color: whitesmoke;
+    color: rgb(235, 173, 92);
 }
 
 .AboutMe {
@@ -53,6 +58,9 @@ h1 , h3 {
     margin-top: 10px;
     margin: 40px;
     gap: 40px;
+}
+.Skills p {
+    text-align: justify;
 }
 
 #file {
@@ -77,7 +85,7 @@ img {
 
 .footer {
     display: flex;
-    background-color: whitesmoke;
+    background-color: antiquewhite;
     justify-content: space-between;
     gap: 40%;
 }
@@ -98,10 +106,11 @@ img {
     padding-left: 50px;
 }
 
-button {
+#button1, #button2, #button3 {
     color: whitesmoke;
     background-color: black;
-    margin-left: 80%;
+    margin-inline-start: -0%;
+    border: none;
 }
 
 .bposts {
@@ -109,34 +118,33 @@ button {
     justify-content: space-between;
     margin: 40px;
     padding: 20px;
-    gap: 60px
+    gap: 30px
 }
 
-.bposts1 {
-    border: 1pt;
-    border-color: rgb(233, 230, 230);
-    border-style: groove;
-    text-align: center ;
-    padding-top: 30px;
+.bposts1, .bposts2, .bposts3 {
+    border: 1pt groove rgb(233, 231, 230);
+    box-sizing: border-box;
+    flex-basis: 35%;
+    padding: 25px;
+    min-width: 300px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+.bposts1 p, .bposts2 p, .bposts3 p{
+    font-size: 20px;
 }
 
-.bposts2 {
-    border: 1pt;
-    border-color: rgb(233, 230, 230);
-    border-style: groove;
-    text-align: center ;
-    padding-top: 30px;
+.bposts1 img, .bposts2 img, .bposts3 img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
 }
 
-.bposts3 {
-    border: 1pt;
-    border-color: rgb(233, 230, 230);
-    border-style: groove;
-    text-align: center ;
-    padding-top: 30px;
-}
 
-#bbutton {
+.bposts button{
     color: rgb(118, 27, 214);
     background-color: white;
     margin-inline-start: -50%;
@@ -148,45 +156,66 @@ button {
     font-size: 150%;
     padding: 5%
 }
-
-.bot {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+.sect h2{
+    width: 100%;
 }
 
-input {
-    margin:5px;
-    padding:5px;
+.contact-form {
+   margin-left: 50px;
+   flex: 1;
 }
 
+.input-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input,
 textarea {
-    margin-top: 20px;
-    padding-top:20px;
-    padding-bottom: 50px ;
-    margin-bottom:30px ;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
 }
 
 #fbtn {
-    width:30%;
-    height:30px ;
-    margin-inline-start: -30%;
+  display: inline-block;
+  width: 70%;
+  height: 40px;
+  margin: 50px;
+  margin-top: 0px;
+  padding: 5px 5px;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  outline: none;
+  justify-content: center;
 }
 
-#bt {
-    margin-left: 50px ;
-}
-
-.form{
-    margin-left: 50px;
+#fbtn:hover {
+    background-color: #645c5c;
 }
 
 .fimage {
     margin-right: 40px;
+    margin-top: auto;
 }
 
 textarea, input {
-    background-color: rgb(235, 245, 248);
+    background-color: antiquewhite;
     border-style: hidden;
     margin-bottom: 30px;
 }
@@ -221,3 +250,20 @@ textarea, input {
     margin: 40px;
     gap: 250px;
 }
+
+textarea {
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+#bt p {
+    margin-left: 50px;
+}
+
+button {
+    margin-left: 80%;
+    background-color: #000000;
+    color: white;
+}
+
